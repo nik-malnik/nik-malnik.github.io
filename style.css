@@ -69,16 +69,21 @@ main {
 .profile {
   display: flex;
   gap: 2.5rem;
-  align-items: flex-start;
+  align-items: stretch;
   margin-bottom: 2rem;
 }
 
+.profile-photo-wrap {
+  flex-shrink: 0;
+}
+
 .profile-photo {
-  width: 155px;
-  height: 155px;
+  width: 220px;
+  height: 440px;
+  display: block;
   border-radius: 6px;
   object-fit: cover;
-  flex-shrink: 0;
+  object-position: top;
   border: 1px solid #e8e8e8;
 }
 
@@ -238,9 +243,10 @@ main {
   vertical-align: middle;
 }
 
-.badge-published { background: #e8f5e9; color: #2e7d32; }
-.badge-rr        { background: #fff3e0; color: #c45000; }
-.badge-wip       { background: #f4f4f4; color: #777; font-weight: 400; }
+.badge-published   { background: #e8f5e9; color: #2e7d32; }
+.badge-forthcoming { background: #fff3e0; color: #c45000; }
+.badge-rr          { background: #fff3e0; color: #c45000; }
+.badge-wip         { background: #f4f4f4; color: #777; font-weight: 400; }
 
 .paper-links a {
   font-size: 0.79rem;
