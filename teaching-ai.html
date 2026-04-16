@@ -13,7 +13,6 @@
     <a href="index.html" class="brand">Nikhil Malik</a>
     <nav>
       <a href="teaching.html" class="active">Teaching</a>
-      <a href="assets/cv.pdf" target="_blank">CV</a>
     </nav>
   </div>
 </header>
@@ -23,67 +22,110 @@
 
     <div class="section">
       <div class="section-title">Economic Foundations of AI</div>
+      <p class="course-meta" style="margin-bottom:2rem;">PhD Seminar &middot; Tepper School of Business, Carnegie Mellon University</p>
 
-      <p style="font-size:0.9rem; color:#555; margin-bottom:1.5rem;">
-        PhD · Tepper School of Business, Carnegie Mellon University
-      </p>
+      <!-- Part I -->
+      <div class="ai-part-label">Part I &mdash; Application and Methods</div>
 
-      <div class="paper-group-label" style="margin-top:0;">Overview</div>
-
-      <p style="font-size:0.9rem; color:#333; margin-bottom:1.5rem;">
-        This doctoral seminar explores artificial intelligence applications in empirical business
-        research, combining methodological foundations with hands-on agentic AI projects.
-      </p>
-
-      <div class="paper-group-label">Part I — AI Methods and Applications</div>
-
-      <div class="course" style="margin-top:0.6rem;">
-        <div class="course-name">AI in Empirical Research</div>
-        <div class="course-meta">
-          How AI integrates into business studies through recent marketing science publications.
-          Applications spanning consumer behavior and market analysis.
+      <div class="ai-topic">
+        <div class="ai-topic-name">AI Application in Empirical Research</div>
+        <div class="ai-readings">
+          <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2018.1123" target="_blank">Timoshenko &amp; Hauser, <em>Marketing Science</em> 2019</a> &middot;
+          <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2021.1294" target="_blank">Puranam, Kadiyali &amp; Narayan, <em>Marketing Science</em> 2021</a> &middot;
+          <a href="https://pubsonline.informs.org/doi/full/10.1287/mksc.2022.1425" target="_blank">Troncoso &amp; Luo, <em>Marketing Science</em> 2022</a>
         </div>
       </div>
 
-      <div class="course">
-        <div class="course-name">Econometric Challenges</div>
-        <div class="course-meta">
-          Statistical complications when deploying machine learning in business contexts.
-          Measurement and inference problems from real-world implementations.
+      <div class="ai-topic">
+        <div class="ai-topic-name">
+          Econometric Challenges when Using AI
+          <a class="exercise-badge" href="https://drive.google.com/file/d/1qu4cysNBb8f-xGj4Dz2sOa0dKZjAvW9s/view?usp=sharing" target="_blank">Hands-On Exercise &rarr;</a>
+        </div>
+        <div class="ai-readings">
+          <a href="https://academic.oup.com/restud/article/72/2/343/1557022" target="_blank">Chen, Hong &amp; Tamer, <em>Review of Economic Studies</em> 2005</a> &middot;
+          <a href="https://pubsonline.informs.org/doi/abs/10.1287/isre.2017.0727" target="_blank">Yang, Adomavicius &amp; Burtch, <em>ISR</em> 2018</a> &middot;
+          <a href="https://pubsonline.informs.org/doi/abs/10.1287/isre.2020.0977" target="_blank">Qiao &amp; Huang, <em>ISR</em> 2021</a>
         </div>
       </div>
 
-      <div class="course">
-        <div class="course-name">AI Methods for Business</div>
-        <div class="course-meta">
-          Emerging methodologies for marketing and strategy applications, featuring recent
-          research on AI-driven business decisions.
+      <div class="ai-topic">
+        <div class="ai-topic-name">AI Methods for Business Applications</div>
+        <div class="ai-readings">
+          <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2022.1403" target="_blank">Liu, <em>Marketing Science</em> 2023</a> &middot;
+          <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2022.0238" target="_blank">Wang, Tao &amp; Zhang, <em>Marketing Science</em> 2025</a> &middot;
+          <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2024.0990" target="_blank">Ye, Yoganarasimhan &amp; Zheng, <em>Marketing Science</em> 2025</a>
         </div>
       </div>
 
-      <div class="paper-group-label">Part II — Agentic AI Projects</div>
+      <!-- Part II -->
+      <div class="ai-part-label">Part II &mdash; Agentic AI</div>
 
-      <div class="course" style="margin-top:0.6rem;">
-        <div class="course-name">Consumer Agent Design</div>
-        <div class="course-meta">
-          Build synthetic consumer agents for market simulation research using the
-          1000 Agents framework for modeling consumer behavior.
+      <div class="ai-topic">
+        <div class="ai-topic-name">
+          Design &ldquo;Consumer&rdquo; Agents for Synthetic Market Research
+          <a class="exercise-badge" href="https://drive.google.com/file/d/16dyPJdWb0a6EqKBfYM91dagRpE0mEOer/view?usp=drive_link" target="_blank">Hands-On Exercise &rarr;</a>
+        </div>
+        <div class="ai-readings">
+          <a href="https://github.com/joonspk-research/genagents" target="_blank"><em>1000 Agents</em> / GenAgents (GitHub)</a>
         </div>
       </div>
 
-      <div class="course">
-        <div class="course-name">Platform Agent Development</div>
-        <div class="course-meta">
-          Create shopping assistants combining retrieval-augmented generation with language
-          models. Tools: OpenAI SDK, Langchain. Simulated environment: WebShop.
+      <div class="ai-topic">
+        <div class="ai-topic-name">
+          Design &ldquo;Platform&rdquo; Agent (RAG+LLM) for Shopping
+          <a class="exercise-badge" href="https://drive.google.com/file/d/1rStFoMTphFPsC9DsKwO7VSgIl8nTQfb8/view?usp=sharing" target="_blank">Hands-On Exercise &rarr;</a>
+        </div>
+        <div class="ai-readings">
+          <a href="https://openai.github.io/openai-agents-python/" target="_blank">OpenAI SDK</a> &middot;
+          <a href="https://rdi.berkeley.edu/agentic-ai/f25" target="_blank">UC Berkeley Agentic AI Course</a> &middot;
+          <a href="https://webshop-pnlp.github.io/" target="_blank">WebShop</a>
+        </div>
+        <div class="ai-readings">
+          <a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2015.2176" target="_blank">Dukes &amp; Liu, <em>Management Science</em> 2015</a> &middot;
+          <a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.02362" target="_blank">Hagiu &amp; Wright, <em>Management Science</em> 2024</a>
         </div>
       </div>
 
-      <div class="course">
-        <div class="course-name">Brand Agent Strategy</div>
-        <div class="course-meta">
-          Design competitive agents for pricing and advertising decisions using Langchain
-          and Flowise. Applications in multi-firm competitive dynamics.
+      <div class="ai-topic">
+        <div class="ai-topic-name">
+          Design &ldquo;Brand&rdquo; Agent (Workflow) for Pricing and Advertising
+          <a class="exercise-badge" href="https://drive.google.com/file/d/1paPdtLg5RMSd70JvxH8XRqia9zKgVPDd/view?usp=sharing" target="_blank">Hands-On Exercise &rarr;</a>
+        </div>
+        <div class="ai-readings">
+          <a href="https://www.langchain.com" target="_blank">LangChain</a> &middot;
+          <a href="https://flowiseai.com/" target="_blank">Flowise</a>
+        </div>
+        <div class="ai-readings">
+          <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.1050.0117" target="_blank">Iyer, Soberman &amp; Villas-Boas, <em>Marketing Science</em> 2005</a>
+        </div>
+      </div>
+
+      <!-- Acknowledgments -->
+      <div class="ai-part-label" style="margin-top:2.5rem;">Acknowledgments</div>
+      <div class="ai-ack-grid">
+        <div class="ai-ack-item">
+          <a href="https://pushpendre.github.io" target="_blank">Pushpendre Rastogi</a>
+          <span>VizOps, ex-Google DeepMind &middot; Agentic AI</span>
+        </div>
+        <div class="ai-ack-item">
+          <a href="https://www.gsb.stanford.edu/faculty-research/faculty/yuyan-wang" target="_blank">Yuyan Wang</a>
+          <span>Stanford &middot; AI and Marketing methodology</span>
+        </div>
+        <div class="ai-ack-item">
+          <a href="https://aplaceofmind.notion.site/" target="_blank">Behnam Mohammadi</a>
+          <span>UT Dallas &middot; Synthetic market research</span>
+        </div>
+        <div class="ai-ack-item">
+          <a href="https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/profile/?username=ktl263" target="_blank">Kathleen Li</a>
+          <span>UT Austin &middot; Econometrics</span>
+        </div>
+        <div class="ai-ack-item">
+          <a href="https://emaadmanzoor.com/" target="_blank">Emaad Manzoor</a>
+          <span>Cornell &middot; Human-AI literature</span>
+        </div>
+        <div class="ai-ack-item">
+          <a href="https://www.cmu.edu/tepper/programs/phd/student-profiles/phd-student-qiu-liying" target="_blank">Liying Qiu</a>
+          <span>CMU &middot; Course TA, exercise design</span>
         </div>
       </div>
 
